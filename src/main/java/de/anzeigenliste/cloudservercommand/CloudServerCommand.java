@@ -10,7 +10,6 @@ import eu.cloudnetservice.ext.platforminject.api.stereotype.PlatformPlugin;
 import lombok.NonNull;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.java.JavaPlugin;
 
 
 @Singleton
@@ -30,7 +29,7 @@ import org.bukkit.plugin.java.JavaPlugin;
                 )
         }
 )
-public final class CloudServerCommand implements PlatformEntrypoint {
+public class CloudServerCommand implements PlatformEntrypoint {
 
     private final Plugin plugin;
     private final ServicesCommand servicesCommand;
