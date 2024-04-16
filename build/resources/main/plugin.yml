@@ -1,7 +1,0 @@
-name: CloudServerCommand
-version: '1.0-SNAPSHOT'
-main: de.anzeigenliste.cloudservercommand.CloudServerCommand
-api-version: '1.20'
-commands:
-  services:
-    description: "Sends Players to a Server"
